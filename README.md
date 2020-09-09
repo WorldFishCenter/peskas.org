@@ -8,8 +8,8 @@ The landing website is based on [Static Site Boilerplate](http://staticsiteboile
 
 ```bash
 // Step 1: Clone repository from GitHub
-$ git clone https://github.com/ericalli/static-site-boilerplate
-&& cd static-site-boilerplate && rm -rf .git && git init 
+$ git clone https://github.com/peskas-platform/peskas.org.git
+&& cd peskas.org 
 // Step 2: Install dependencies
 $ npm install 
 // Step 3: Run the development server
@@ -17,6 +17,10 @@ $ npm run start
 // Step 4: Generate production-ready files
 $ npm run build:dist 
 ```
+
+## Deploying the website
+
+Site is deployed using netflify.com. 
 
 ## Support & Contributing
 
