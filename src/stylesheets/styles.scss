@@ -2,3 +2,9 @@
 // @import "~normalize.css";
 @import "~bootstrap/scss/bootstrap";
 @import "cover.css";
+
+.cover-container {
+  max-width: 42em;
+  color: white;
+  background-color: $dark;
+}
