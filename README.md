@@ -1,6 +1,6 @@
 # Peskas.org
 
-Peskas is an advanced intelligence platform for artisanal fisheries. This repository host the code for the project's website, [peskas.org](http://peskas.org).
+Peskas is an advanced intelligence platform for artisanal fisheries. This repository hosts the code for the project's website, [peskas.org](http://peskas.org).
 
 The landing website is based on [Static Site Boilerplate](http://staticsiteboilerplate.com)
 
