@@ -1,0 +1,71 @@
+:root {
+    --primary: #1a4985;
+    --bs-primary: #1a4985;
+}
+
+h1, h2 {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-family: 'Roboto condensed', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.peskas-display {
+    font-weight: 700;
+}
+
+.peskas-display::after {
+    content: " ";
+    background: #58ab47;
+    text-align: center;
+    width: 50%;
+    height: 3px;
+    display: block;
+    margin: 15px auto; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.lead{
+    font-weight: 400;
+}
+
+.cover-container {
+    max-width: 42em;
+  }
+
+a, .btn-link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+    /* background-color: white; */
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:scope{
+    background-color: var(--primary);
+    border-color: var(--primary);    
+}
+
+.copyright {
+    text-transform: uppercase;
+    font-family: 'Roboto condensed', sans-serif;
+    font-weight: 700;
+}
