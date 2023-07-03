@@ -8,7 +8,7 @@ Site is deployed using netflify.com.
 
 ## Support & Contributing
 
-For general questions about the Peskas Platform, contact [Alex Tilley](mailto:a.tilley@cgiar.org). For questions about Peskas' code and technical infrastructure, contact [Fernando Cagua](mailto:f.cagua@cgiar.org).
+For general questions about the Peskas Platform, contact [Alex Tilley](mailto:a.tilley@cgiar.org). For questions about Peskas' code and technical infrastructure, contact [Lorenzo Longobardi](mailto:l.longobardi@cgiar.org).
 
 Anyone is welcome to contribute. If you decide to get involved, please take a moment and check out the following:
 
@@ -21,6 +21,10 @@ Anyone is welcome to contribute. If you decide to get involved, please take a mo
 
 -   Website: <http://www.cagua.co/>
 -   Github: <https://github.com/efcagua/>
+
+**Lorenzo Longobardi**
+
+-   Github: <https://github.com/langbart>
 
 **Alex Tilley**
 
