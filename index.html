@@ -1,89 +1,115 @@
 <!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.79.0">
-    <title>Cover Template · Bootstrap v5.0</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Album example · Bootstrap v5.0</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
-    <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
 
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <!-- <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div> -->
-  </header>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      object-fit: cover; /* Preserve the original aspect ratio of the image */
+    }
 
-  <main class="px-3">
-    <h1 class = "display-1 peskas-display">Peskas</h1>
-    <p class="lead">Peskas is an advanced intelligence platform for artisanal fisheries.</p>
-    <p class="lead">
-        <a href="https://worldfish.shinyapps.io/peskAAS/" class="btn btn-outline-primary btn-lg fw-bold">Timor-Leste</a>
-      
-      <!-- <a href="#" class="btn btn-lg btn-secondary fw-bold">Kenya</a> -->
+    .custom-button {
+      background-color: #1a4985;
+      color: white;
+    }
 
-      <!-- <div class="btn-group" role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-outline-primary btn-lg fw-bold dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-          Dashboards
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-          <li><a class="dropdown-item" href="#">Timor-Leste</a></li>
-          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-        </ul>
-      </div> -->
-      
-    </p>
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="py-2 text-center container">
+      <h1 class="display-1 peskas-display">Peskas</h1>
+      <p class="lead text-muted">Peskas is an advanced intelligence platform for artisanal fisheries. Peskas was built with the objectives of being low cost, open source, open access and near-real time.</p>
+    </section>
 
-
-    <!-- <div class="p-4">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="https://blog.peskas.org">The Peskas Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Timor Dashboard</a>
-              </li>
-          </ul>
-    
-
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card shadow-sm">
+              <h2 class="card-title text-center">Timor-Leste</h2>
+              <a href="https://timor.peskas.org/">
+                <img src="timor-leste.png" alt="Timor-Leste" class="bd-placeholder-img card-img-top">
+              </a>
+              <div class="card-body">
+                <p class="text-muted small">Peskas in Timor-Leste was initiated in 2016 in partnership with the Timor-Leste Ministry of Agriculture and Fisheries and it is the official fisheries national monitoring system of Timor-Leste. The project leverages on a team of Timorese enumerators collecting catch data from fishers around Timor-Leste. These data are matched with vessel tracking data to show fishing trends over time and space.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://timor.peskas.org/">
+                      <button type="button" class="btn btn-sm btn-outline-primary">Main dashboard</button>
+                    </a>
+                    <a href="https://storage.googleapis.com/public-timor/data_report.html">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Data report</button>
+                    </a>
+                    <a href="https://langbart.shinyapps.io/nut_paper/">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Nutrients dashboard</button>
+                    </a>
+                    <a href="https://storage.googleapis.com/public-timor/timor_gender.pdf">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Gender report</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <h2 class="card-title text-center">Kenya (coming soon)</h2>
+              <a href="https://kenya.peskas.org/">
+                <img src="kenya.png" alt="Kenya" class="bd-placeholder-img card-img-top" style="object-fit: cover;">
+              </a>
+              <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-       -->
-    
+    </div>
   </main>
 
-  <footer class="mt-auto">
-    <div class="copyright text-muted small">
-      <span>© 2021 </span> <a href="https://www.worldfishcenter.org/" target="_blank">WorldFish</a>
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <span>© 2023 </span> <a href="https://www.worldfishcenter.org/" target="_blank">WorldFish</a>
       <span>·</span>
       <span><a href="https://blog.peskas.org">The Peskas Blog</a></span>
-  </div>
-    
+    </div>
   </footer>
 
-</div>
-    
-  </body>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
