@@ -3,7 +3,7 @@
   --bs-primary: #1a4985;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   color: var(--primary);
   text-transform: uppercase;
   font-family: 'Roboto condensed', sans-serif;
