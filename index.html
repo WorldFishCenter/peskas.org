@@ -1,114 +1,150 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
-  <title>Album example · Bootstrap v5.0</title>
-
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
-
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-  <!-- Custom styles for this template -->
-  <link href="index.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Album example · Bootstrap v5.0</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
       -webkit-user-select: none;
       -moz-user-select: none;
       user-select: none;
       object-fit: cover; /* Preserve the original aspect ratio of the image */
-    }
-
-    .custom-button {
+      }
+      .custom-button {
       background-color: #1a4985;
       color: white;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
       }
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <section class="py-2 text-center container">
-      <h1 class="display-1 peskas-display">Peskas</h1>
-      <p class="lead text-muted">Peskas is an advanced intelligence platform for artisanal fisheries. Peskas was built with the objectives of being low cost, open source, open access and near-real time.</p>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card shadow-sm">
-              <h2 class="card-title text-center">Timor-Leste</h2>
-              <a href="https://timor.peskas.org/">
+      @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="py-2 text-center container">
+        <h1 class="display-1 peskas-display">Peskas</h1>
+        <p class="lead text-muted">Peskas is an advanced intelligence platform for artisanal fisheries. Peskas was built with the objectives of being low cost, open source, open access and near-real time.</p>
+      </section>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card shadow-sm">
+                <h2 class="card-title text-center">Timor-Leste</h2>
+                <a href="https://timor.peskas.org/">
                 <img src="timor-leste.png" alt="Timor-Leste" class="bd-placeholder-img card-img-top">
-              </a>
-              <div class="card-body">
-                <p class="text-muted small">Peskas in Timor-Leste was initiated in 2016 in partnership with the Timor-Leste Ministry of Agriculture and Fisheries and it is the official fisheries national monitoring system of Timor-Leste. The project leverages on a team of Timorese enumerators collecting catch data from fishers around Timor-Leste. These data are matched with vessel tracking data to show fishing trends over time and space.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://timor.peskas.org/">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Main dashboard</button>
+                </a>
+                <div class="card-body">
+                  <p class="text-muted small">Peskas in Timor-Leste was initiated in 2016 in partnership with the Timor-Leste Ministry of Agriculture and Fisheries and it is the official fisheries national monitoring system of Timor-Leste. The project leverages on a team of Timorese enumerators collecting catch data from fishers around Timor-Leste. These data are matched with vessel tracking data to show fishing trends over time and space.</p>
+                  <div class="list-group w-auto">
+                    <a href="https://timor.peskas.org/" target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+                      </svg>
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h4 class="mb-0">Main Dashboard</h4>
+                          <p class="mb-0 opacity-75 small">The central hub of Peskas in Timor-Leste, providing an overview and access to key information on small-scale fishery.</p>
+                        </div>
+                      </div>
                     </a>
-                    <a href="https://storage.googleapis.com/public-timor/data_report.html">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Data report</button>
+                    <a href="https://storage.googleapis.com/public-timor/data_report.html" target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-analytics" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                        <path d="M9 17l0 -5"></path>
+                        <path d="M12 17l0 -1"></path>
+                        <path d="M15 17l0 -3"></path>
+                      </svg>
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h4 class="mb-0">Data report</h4>
+                          <p class="mb-0 opacity-75 small">A detailed analysis of small-scale fishery data in Timor-Leste, offering comprehensive insights and statistics.</p>
+                        </div>
+                      </div>
                     </a>
-                    <a href="https://langbart.shinyapps.io/nut_paper/">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Nutrients dashboard</button>
+                    <a href="https://langbart.shinyapps.io/nut_paper/" target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-fish" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56c0 1.747 .64 3.345 1.699 4.571"></path>
+                        <path d="M2 9.504c7.715 8.647 14.75 10.265 20 2.498c-5.25 -7.761 -12.285 -6.142 -20 2.504"></path>
+                        <path d="M18 11v.01"></path>
+                        <path d="M11.5 10.5c-.667 1 -.667 2 0 3"></path>
+                      </svg>
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h4 class="mb-0">Nutrients dashboard</h4>
+                          <p class="mb-0 opacity-75 small">Highlights the nutritional contribution of Timor-Leste's small-scale fishery.</p>
+                        </div>
+                      </div>
                     </a>
-                    <a href="https://storage.googleapis.com/public-timor/timor_gender.pdf">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Gender report</button>
+                    <a href="https://storage.googleapis.com/public-timor/timor_gender.pdf" target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-gender-bigender" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M11 11m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        <path d="M19 3l-5 5"></path>
+                        <path d="M15 3h4v4"></path>
+                        <path d="M11 16v6"></path>
+                        <path d="M8 19h6"></path>
+                      </svg>
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h4 class="mb-0">Gender report</h4>
+                          <p class="mb-0 opacity-75 small">Examines the role of gender in Timor-Leste's small-scale fisheries.</p>
+                        </div>
+                      </div>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <h2 class="card-title text-center">Kenya (coming soon)</h2>
+            <div class="col">
+              <div class="card shadow-sm">
+                <h2 class="card-title text-center">Kenya (coming soon)</h2>
                 <img src="kenya.png" alt="Kenya" class="bd-placeholder-img card-img-top" style="object-fit: cover;">
-              <div class="card-body">
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-muted"></small>
                   </div>
-                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#">Back to top</a>
-      </p>
-      <span>© 2023 </span> <a href="https://www.worldfishcenter.org/" target="_blank">WorldFish</a>
-      <span>·</span>
-      <span><a href="https://blog.peskas.org">The Peskas Blog</a></span>
-    </div>
-  </footer>
-
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    </main>
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <span>© 2023 </span> <a href="https://www.worldfishcenter.org/" target="_blank">WorldFish</a>
+        <span>·</span>
+        <span><a href="https://blog.peskas.org">The Peskas Blog</a></span>
+      </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
-
