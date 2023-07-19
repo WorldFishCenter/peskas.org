@@ -44,6 +44,45 @@
       <p class="lead text-muted">
         Peskas is an advanced intelligence platform for artisanal fisheries. Peskas was built with the objectives of being low cost, open source, open access and near-real time.
       </p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://digitalarchive.worldfishcenter.org/bitstream/handle/20.500.12348/4930/aecc4be69fa47d76be36e48c5b116d15.pdf?sequence=2&isAllowed=y" target="_blank">
+              <img src="penang-tracks.png" class="bd-placeholder-img card-image" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Digital small-scale fisheries in Penang, Malaysia</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://timor.peskas.org/" target="_blank">
+              <img src="dashboard-example.png" class="bd-placeholder-img card-image" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Peskas main dashboard, Timor-Leste</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <script>
+        var carousel = new bootstrap.Carousel(document.querySelector('#carouselExampleCaptions'), {
+          interval: 3000, // Set the desired interval time in milliseconds (e.g., 2000 = 2 seconds)
+          wrap: true // Set wrap to true if you want the carousel to loop continuously
+        });
+      </script>
     </section>
     <div class="album py-5 bg-light">
       <div class="container">
@@ -51,7 +90,7 @@
           <div class="col">
             <div class="card shadow-sm">
               <h2 class="card-title text-center">Timor-Leste</h2>
-              <a href="https://timor.peskas.org/">
+              <a href="https://timor.peskas.org/" target="_blank">
                 <img src="timor-leste.png" alt="Timor-Leste" class="bd-placeholder-img card-img-top card-image" />
               </a>
               <div class="card-body">
